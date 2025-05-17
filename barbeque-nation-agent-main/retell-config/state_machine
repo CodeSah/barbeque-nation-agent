@@ -1,0 +1,80 @@
+{
+  "start": {
+    "prompt": "Welcome to Barbeque Nation! Would you like to make a booking, modify or cancel a booking, or ask a question?",
+    "transitions": {
+      "booking": "ask_name",
+      "modify": "ask_booking_id_modify",
+      "cancel": "ask_booking_id_cancel",
+      "question": "faq"
+    }
+  },
+  "ask_name": {
+    "prompt": "Please provide your full name.",
+    "transitions": {
+      "next": "ask_phone"
+    }
+  },
+  "ask_phone": {
+    "prompt": "Please provide your phone number.",
+    "transitions": {
+      "next": "ask_guests"
+    }
+  },
+  "ask_guests": {
+    "prompt": "How many guests will be there?",
+    "transitions": {
+      "next": "ask_date"
+    }
+  },
+  "ask_date": {
+    "prompt": "What date would you like to book for? (e.g., 2025-06-13)",
+    "transitions": {
+      "next": "ask_time"
+    }
+  },
+  "ask_time": {
+    "prompt": "At what time would you like to book? (e.g., 19:00)",
+    "transitions": {
+      "next": "confirm_booking"
+    }
+  },
+  "confirm_booking": {
+    "prompt": "Thanks {{name}}! Confirming your booking for {{guests}} guests on {{date}} at {{time}}. Should I proceed?",
+    "transitions": {
+      "yes": "booking_success",
+      "no": "booking_cancelled"
+    }
+  },
+  "booking_success": {
+    "prompt": "Your booking is confirmed. We look forward to serving you!",
+    "transitions": {}
+  },
+  "booking_cancelled": {
+    "prompt": "Booking cancelled as per your request.",
+    "transitions": {}
+  },
+  "ask_booking_id_modify": {
+    "prompt": "Please provide your booking ID and the updated details you'd like to change.",
+    "transitions": {
+      "next": "modify_success"
+    }
+  },
+  "ask_booking_id_cancel": {
+    "prompt": "Please provide your booking ID to proceed with the cancellation.",
+    "transitions": {
+      "next": "cancel_success"
+    }
+  },
+  "modify_success": {
+    "prompt": "Your booking details have been successfully updated.",
+    "transitions": {}
+  },
+  "cancel_success": {
+    "prompt": "Your booking has been successfully cancelled.",
+    "transitions": {}
+  },
+  "faq": {
+    "prompt": "How can I assist you with your enquiry?",
+    "transitions": {}
+  }
+}

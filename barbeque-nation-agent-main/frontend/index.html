@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barbeque Nation Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #chatbox { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; margin-bottom: 10px; }
+        .user-msg { color: blue; margin: 5px 0; }
+        .bot-msg { color: green; margin: 5px 0; }
+        #inputSection { display: flex; }
+        #userInput { flex-grow: 1; padding: 10px; font-size: 1em; }
+        #sendBtn { padding: 10px 20px; font-size: 1em; }
+    </style>
+</head>
+<body>
+    <h2>Barbeque Nation Chatbot</h2>
+    <div id="chatbox"></div>
+    <div id="inputSection">
+        <input type="text" id="userInput" placeholder="Type your question here..." />
+        <button id="sendBtn">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

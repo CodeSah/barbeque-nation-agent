@@ -1,0 +1,42 @@
+{
+    "Delhi": {
+        "responses": [
+            {
+                "intent": "menu",
+                "response": "Our Delhi outlet offers a wide variety of barbeque options including vegetarian and non-vegetarian starters, main courses, and desserts. You can find the detailed menu on our website or ask for specifics."
+            },
+            {
+                "intent": "availability",
+                "response": "We have tables available for lunch and dinner slots at the Delhi outlet. Please provide the date, time, and number of guests to check availability."
+            },
+            {
+                "intent": "booking",
+                "response": "To book a table at our Delhi outlet, please provide your name, phone number, number of guests, preferred date and time."
+            },
+            {
+                "intent": "cancellation",
+                "response": "To cancel your booking at the Delhi outlet, please share your booking ID or the phone number used during booking."
+            }
+        ]
+    },
+    "Bangalore": {
+        "responses": [
+            {
+                "intent": "menu",
+                "response": "Our Bangalore outlet serves a rich selection of barbeque dishes including seafood, chicken, paneer, and a lavish dessert spread. For full menu details, visit our official site."
+            },
+            {
+                "intent": "availability",
+                "response": "The Bangalore outlet is open for lunch and dinner bookings. Let us know your preferred date, time, and number of guests to check slots."
+            },
+            {
+                "intent": "booking",
+                "response": "For booking at the Bangalore outlet, we need your name, contact number, number of guests, and the date and time you wish to book."
+            },
+            {
+                "intent": "cancellation",
+                "response": "Cancellations for the Bangalore outlet can be done by sharing your booking ID or registered phone number."
+            }
+        ]
+    }
+}

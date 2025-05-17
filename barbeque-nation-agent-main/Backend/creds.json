@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "turnkey-skill-438715-j5",
+  "private_key_id": "53cfc3aa31d6df260c11ccbf744b66bfdae66f31",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBbVasaXbSjiAx\n5WVVSCQHvuVaxtzSFBAsAzsYbnQXEcux0FsDE9UdbpzeZQIyufTVD2qBc1fQKgAA\nIRTvUtslflksX7EtG00ftStBHZedIDLaoU4sW84usLTz8F5bh/b2ZoTYlfnqNYJM\n4LcdnLhnM474LCG6SEZakiiSmrX0rUF7I+gL3OMQL8R/en89Jgbsd7VMmx6+FKD6\nE0gOqi62TphvSwGS9WSMlVjikcv0vLHePJ5xDKbyJ0l9MTLgkWHfMAXEmvDEjMeG\nYi554diUp5xWia8u3Q2mJddUHvtZ1K6p0ynsIpxVjSKNIvtTyxKLkjfaL0xN+NsF\ndl7BRGc7AgMBAAECggEATKNUQJrGzBUo92wTEs+zCuidejKpwojVgYLEMuFsmMlh\nwjGyJc2BVpiBifJOhSe9tH9XrTO0utMxTdvNridPkhL2JQlDK4KSM7p2CWY+sLBV\nxd88mIHFdyVnhPGbiTudY7Jp92Cw9RW/a1Nr6k0ymR1KC9V8hZDmYzNe5PtslaUx\nm09flmi2HjsekJPGBibu8OWD3ghlSJM0QiWARjm+OlPArN+b7XWj12M22pmYNPIP\ngTi0y3ajXWpxrfEirUGdHJfYb5SXq4UlQ6qpiCg3JAwnieed/h/0y3Tsoyjl57+G\ngzO48OhKbZWOxQHzJY10qQIp7fMjd0KcMgM4ADyTDQKBgQDirOVyZfzyGyv8gwlk\ngcl4jYAGkRAdv/sHzJK76BiSoehHlC2KONWywVouJdZ/gVg0EOzooDpu1W9z0QEy\nP+LajWhI7WpPiEuUbkpzxFVBYuhW2ketj+ziRzSY6mOvTdVkg3jlRR2HZuto+oaS\nAwxN7EN9RODaXTDRiE8DA4XUBQKBgQDac1DhwKD2bKUMqTSAQ5i5TFCi69Q+ASB0\n8qq27lGkFZpG5G3NljfBy2XuqgPd3RJpeGKVt/FozLNZEpQX5AUSKOGVFeHUmA6n\nxUYq4pE039EwZY5oltv9N61jqLCfy+F+XXELr8l6C7r0hKYPysMnNM8YwQANn2zk\ncqy0Ri9yPwKBgHATtM8/hjXfIXyU/cvoMEmfDTIx/5n2FpTgnZyzQZMe4s6hgXLa\nby8XUxOGOeyJc6cqxziuILY0agsFyGWkGPKfAHUujmYMqfIWJlHfPZg6404uV0qF\n40Zulp8VJXzEK0KrjtctuU/9n2Aknu0K/MZ6j1Qc/mB5u22ezBJdZ4pRAoGAVL2t\nH5YJGu70a9/rpOIUCbWoBjtznwXy4EsOnF4Av6U9rsiIK9tdD8lmZln/m/5ZWR7B\nJ5Eujdfyrtf9KPNkYDIJqDrP2xeNf9mQKaywZZF5ZcvPnZUAC8+gbGuQ8Lw3Yjy/\nUKhFgRmx0Y7vmGqwn7HlsJWV/rLcnBY8FsavOyMCgYEAyQM9G8s3KOxaOi0Ys/fX\n649z9VB+0bhJDwqdY9TFC+jt51z9FAsz7DT7booBl+KAzTnfzjHK3qnUVbGfXg/o\nBDZe/1dCAnfFoyCBOyKMau74mej1MBKIh64eLt5k7bCh1xuWlQ6vawAyiCZlnyfO\n7sgmMWk+UVwerfIwaZxBdNM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bbq-bot@turnkey-skill-438715-j5.iam.gserviceaccount.com",
+  "client_id": "104964747928516852647",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bbq-bot%40turnkey-skill-438715-j5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
